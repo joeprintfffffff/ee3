@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Blog</title>
+</head>
+
+<body>
+<h1>Welcome <span th:text="${first.name}"></span></h1>
+</body>
+<footer th:replace="layouts/main::site-footer" />
+</html>
